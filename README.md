@@ -20,3 +20,19 @@
 
 [The Magic of Bytes (RE)]()
 
+
+## Partial solves
+
+[Spooky Proxy (Web)]()
+
+[EndOfTheLine (Forensics)]()
+
+[Donut (Pwn)]()
+
+[Badge Brigade (Forensics)]()
+
+[Block Blast (Crypto)]()
+
+
+
+[]()
