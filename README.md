@@ -1,5 +1,7 @@
 # CTF SVBGR 2025
 
+Competition ends June 18, 2025. 
+
 [Drive Discovery]()
 
 [Charlie (Forensics)]()
