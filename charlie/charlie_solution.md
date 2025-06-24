@@ -1,4 +1,4 @@
-### Investigate Charlie.jpg
+### Extract hidden file in Charlie.jpg
 
 ```
 $ binwalk charlie.jpg
@@ -9,6 +9,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 4477372       0x4451BC        Zip archive data, at least v2.0 to extract, compressed size: 16938, uncompressed size: 70636, name: flag.txt
 4494454       0x449476        End of Zip archive, footer length: 22
 
+```
+```
 $ dd if=charlie.jpg of=flag.zip bs=1 skip=4477372 count=16938
 16938+0 records in
 16938+0 records out
