@@ -1,6 +1,6 @@
 # CTF SVBGR 2025
 
-Competition ends June 18, 2025. 
+Competition ended June 18, 2025. 
 
 [Drive Discovery (Forensics)](drive_discovery/usb_solution.md)
 
