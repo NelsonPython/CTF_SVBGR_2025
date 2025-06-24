@@ -1,4 +1,4 @@
-### Extract hidden file in Charlie.jpg
+### Extract base64 encoded file hidden in Charlie.jpg
 
 ```
 $ binwalk charlie.jpg
