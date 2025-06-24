@@ -1,6 +1,6 @@
-### Open SilentSignal.pcap in Wireshark
+### Timing
 
-Notice the only thing that changes is the time stamp.  Extract the ICMP packets:
+Open SilentSignal.pcap in Wireshark.  Notice the only thing that changes is the time stamp.  Extract the ICMP packets:
 
 ```
 Wireshark -> File -> Extract Packet Dissections -> As CSV
