@@ -27,7 +27,7 @@ Competition ended June 18, 2025.
 
 [Spooky Proxy (Web)]()
 
-[EndOfTheLine (Forensics)]()
+[EndOfTheLine (Forensics)](EndOfTheLine/morse_code.md)
 
 [Donut (Pwn)]()
 
