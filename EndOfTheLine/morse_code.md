@@ -20,6 +20,6 @@ S V B R G A U D A C I T Y R O C K S
 
 SVBGR{AUDACITYROCKS} 
 
-Adding in the "{" and "}" completes it
-
 According to Jason Elliott, this wasn't accepted at first. Turns out the problem was a trailing space "SVBGR{AUDACITYROCKS} " instead of "SVBGR{AUDACITYROCKS}"
+
+[Official writeup](https://github.com/jselliott/USCyberOpen2025/blob/main/challenges/bgr/end-of-the-line-forensics/solution/writeup.pdf)
