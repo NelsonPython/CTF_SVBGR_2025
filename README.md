@@ -2,8 +2,6 @@
 
 Competition ended June 18, 2025. 
 
-[Block Blast (Crypto)](block_blast/ecb_solution.md)
-
 [Charlie (Forensics)](charlie/charlie_solution.md)
 
 [Cookie (Web)](cookie_web/cookie_edit_it.md)
@@ -25,7 +23,9 @@ Competition ended June 18, 2025.
 [The Magic of Bytes (RE)](magic_bytes/re_c_python.md)
 
 
-## Partial solves
+## Solved after competition
+
+[Block Blast (Crypto)](block_blast/ecb_solution.md)
 
 [Donut (Pwn)]()
 
