@@ -27,8 +27,6 @@ Competition ended June 18, 2025.
 
 [Block Blast (Crypto)](block_blast/ecb_solution.md)
 
-[Donut (Pwn)]()
-
 [EndOfTheLine (Forensics)](EndOfTheLine/morse_code.md)
 
 [Spooky Proxy (Web)]()
