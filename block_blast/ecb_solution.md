@@ -57,11 +57,11 @@ b26fb8ccdd3471624e25963fca2bdba00bb9cbfe7c788041c3ff9dfdd9972e7a
 
 During the competition, I wrote a script that launched the attack, but it timed out.  I also ran out of time to troubleshoot.  After the competition, I reviewed solve.py and learned that I should have used a ``` while ``` loop to avoid this.  
 
-Inside the ``` while ``` loop, the number of bytes needed to fill the current block are computed leaving room for a guess about the next byte.  An oracle function sends user-provided bytes to the server and receives ciphertext from the server.  See the [solution writeup]()    
+Inside the ``` while ``` loop, the number of bytes needed to fill the current block are computed leaving room for a guess about the next byte.  An oracle function sends user-provided bytes to the server and receives ciphertext from the server.  See the [solution writeup](https://github.com/jselliott/USCyberOpen2025/tree/main/challenges/bgr/block-blast-crypto)    
 
 
+I was able to solve this after the competition by running solve.py in my test environment.
 
-SOLUTION:
 ```
 $ python3 02_solve_flag.py  
 [*]  Starting byte-at-a-time attack
@@ -79,3 +79,4 @@ $ python3 02_solve_flag.py
 
 FLAG: SVBGR{flag}
 ```
+
