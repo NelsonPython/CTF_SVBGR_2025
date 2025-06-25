@@ -27,9 +27,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.sendall(MESSAGE.encode())
 ```
 
-### AES/ECB Vulnerability
+### AES-ECB Vulnerability
 
-ECB is encrypted by block.  Get the length of the block by inputting progressively larger strings until the size of the output changes.  In this challenge, the block size is 16.
+Launch a "byte-at-a-time" attack against an AES-ECB (Electronic Codebook) encryption oracle. The goal of such an attack is to decrypt an unknown secret string that is being appended to user-controlled input before encryption.  First, get the block size because ECB is encrypted by block.  Get the length of the block by inputting progressively longer strings until the size of the output changes.  You can test this manually by entering progressivly longer input strings.
 
 ```
 └─$ python3 challenge.py     
@@ -54,6 +54,11 @@ b26fb8ccdd3471624e25963fca2bdba00bb9cbfe7c788041c3ff9dfdd9972e7a
 > AAAAAAAAAAAAAAAA
 b26fb8ccdd3471624e25963fca2bdba00bb9cbfe7c788041c3ff9dfdd9972e7a
 ```
+
+During the competition, I wrote a script that launched the attack, but it timed out.  I also ran out of time to troubleshoot.  After the competition, I reviewed solve.py and learned that I should have used a ``` while ``` loop to avoid this.  
+
+Inside the ``` while ``` loop, the number of bytes needed to fill the current block are computed leaving room for a guess about the next byte.  An oracle function sends user-provided bytes to the server and receives ciphertext from the server.  See the [solution writeup]()    
+
 
 
 SOLUTION:
