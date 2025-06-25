@@ -23,7 +23,7 @@ Competition ended June 18, 2025.
 [The Magic of Bytes (RE)](magic_bytes/re_c_python.md)
 
 
-## Solved after competition
+### Partially solved during competition
 
 [Block Blast (Crypto)](block_blast/ecb_solution.md)
 
