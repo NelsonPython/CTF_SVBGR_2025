@@ -55,3 +55,22 @@ b26fb8ccdd3471624e25963fca2bdba00bb9cbfe7c788041c3ff9dfdd9972e7a
 b26fb8ccdd3471624e25963fca2bdba00bb9cbfe7c788041c3ff9dfdd9972e7a
 ```
 
+
+SOLUTION:
+```
+$ python3 02_solve_flag.py  
+[*]  Starting byte-at-a-time attack
+[+]  Recovered byte 01: b'S'
+[+]  Recovered byte 02: b'V'
+[+]  Recovered byte 03: b'B'
+[+]  Recovered byte 04: b'G'
+[+]  Recovered byte 05: b'R'
+[+]  Recovered byte 06: b'{'
+[+]  Recovered byte 07: b'f'
+[+]  Recovered byte 08: b'l'
+[+]  Recovered byte 09: b'a'
+[+]  Recovered byte 10: b'g'
+[+]  Recovered byte 11: b'}'
+
+FLAG: SVBGR{flag}
+```
