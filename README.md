@@ -36,7 +36,7 @@ Competition ended June 18, 2025.
 ## Other writeups
 
 [US Cyber Open 2025](https://github.com/jselliott/USCyberOpen2025)
-[Block Blast (Crypto)]()
+[Block Blast (Crypto)](block_blast/ecb_solution.md)
 
 
 
