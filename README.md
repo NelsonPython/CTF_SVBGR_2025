@@ -34,3 +34,4 @@ Competition ended June 18, 2025.
 
 [US Cyber Open 2025](https://github.com/jselliott/USCyberOpen2025)
 
+[Future of SWE](future_of_swe/unravel.md)
