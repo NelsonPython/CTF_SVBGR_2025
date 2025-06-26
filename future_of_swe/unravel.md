@@ -1,6 +1,6 @@
 ### Unzip 
 
-Used the Thunar GUI to extract an img file from the future_of_swe.raw-001.zip
+Used the Thunar GUI to extract an img file from the future_of_swe.raw-001.zip and renamed the extracted file to future_of_swe.img
 
 ```
 $ fls future_of_swe.img               
