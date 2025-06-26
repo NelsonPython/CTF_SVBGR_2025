@@ -29,8 +29,6 @@ Competition ended June 18, 2025.
 
 [EndOfTheLine (Forensics)](EndOfTheLine/morse_code.md)
 
-[Spooky Proxy (Web)]()
-
 
 ## US Cybergames writeups
 
