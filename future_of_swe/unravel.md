@@ -3,6 +3,9 @@
 Used the Thunar GUI to extract an img file from the future_of_swe.raw-001.zip and renamed the extracted file to future_of_swe.img
 
 ```
+$ file future_of_swe.raw.001
+future_of_swe.raw.001: DOS/MBR boot sector, code offset 0x3c+2, OEM-ID "MSDOS5.0", sectors/cluster 4, reserved sectors 8, root entries 512, Media descriptor 0xf8, sectors/FAT 256, sectors/track 63, heads 255, hidden sectors 12390400, sectors 262144 (volumes > 32 MB), serial number 0xfa653f79, unlabeled, FAT (16 bit)
+
 $ fls future_of_swe.img               
 r/r 3:  NEW VOLUME  (Volume Label Entry)
 d/d 6:  System Volume Information
