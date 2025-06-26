@@ -84,13 +84,7 @@ $ decompyle3 output.pyc
         NameError: name 'opcode_38' is not defined
                                                                                                
 $ git clone https://github.com/zrax/pycdc.git
-$ cd pycdc     
-$ cmake .
-            -- The C compiler identification is GNU 13.3.0...
-            -- Build files have been written to: /home/ctf/Downloads/ToDo/MagicBytes/pycdc
-$ make
-
-./pycdc /home/ctf/Downloads/ToDo/MagicBytes/output.pyc
+$ ./pycdc output.pyc
             # Source Generated with Decompyle++
             # File: output.pyc (Python 3.8)
 
@@ -99,42 +93,34 @@ $ make
             def s1():
                 return '5_I'
 
-
             def s2():
                 return '311'
-
 
             def s3():
                 return '{W'
 
-
             def s4():
                 return '_Th1'
-
 
             def s5():
                 return '5_An'
 
-
             def s6():
                 return 'SVBGR'
-
 
             def s7():
                 return '11}'
 
-
             def s8():
                 return '_5LF_'
-
 
             def s9():
                 return 'CHA'
 
             print(s6() + s3() + s2() + s4() + s1() + s5() + s8() + s9() + s7())
                                                                                                            
-$ ./pycdc /home/ctf/Downloads/ToDo/MagicBytes/output.pyc > 06_flag.py
+$ ./pycdc output.pyc > 06_flag.py
                                                                                                            
 $ python3 flag.py
-            SVBGR{W311_Th15_I5_An_5LF_CHA11}
+  SVBGR{W311_Th15_I5_An_5LF_CHA11}
 ```
